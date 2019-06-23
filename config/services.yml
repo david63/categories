@@ -1,0 +1,7 @@
+services:
+    david63.categories.listener:
+        class: david63\categories\event\listener
+        arguments:
+            - '@language'
+        tags:
+            - { name: event.listener }

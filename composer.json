@@ -1,0 +1,33 @@
+{
+	"name": "david63/categories",
+	"type": "phpbb-extension",
+	"description": "This extension will arrange Global Announcements, Announcements and Stickies in a forum.",
+	"version": "2.1.0",
+	"time": "2016-03-23",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "categories"
+    ],
+	"license": "GPL-2.0-only",
+	"authors": [{
+			"name": "David Wood",
+			"role": "phpBB 3.2 Updater"
+		}
+	],
+	"require": {
+        "php": ">=5.4,<7.1",
+        "composer/installers": "~1.0"
+    },
+	"extra": {
+		"display-name": "[*] Organise categories",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.0-RC1"
+		},
+		"version-check": {
+        	"host": "version.phpbbdev.space",
+        	"directory": "/3.2",
+        	"filename": "/categories_version_file.json"
+    	}
+	}
+}
