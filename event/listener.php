@@ -27,7 +27,7 @@ class listener implements EventSubscriberInterface
 	/**
 	* Constructor for listener
 	*
-	* @param phpbb\language\language	$language	Language object
+	* @param \phpbb\language\language	$language	Language object
 	*
 	* @return \david63\categories\event\listener
 	*
